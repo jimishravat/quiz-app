@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="play.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+
+    <script src="play.js"></script>
+    <title>Quiz Mania</title>
+</head>
+
+<body>
+    <div id="boxes">
+        <div id="dialog" class="window">
+            Input the Player Name
+            <input type="text" id="uName" placeholder="Enter Your Name">
+            <span id="warn"></span>
+            <div id="popupfoot"> <a href="#" class="close agree" onclick="getName()">Go</a> <a class="agree" style="color:red;" href="#" onclick="goHome()">Cancel</a> </div>
+        </div>
+        <div id="mask"></div>
+    </div>
+    <button id="home" onclick="location.href='index.html'">Home</button>
+    <div class="container">
+        <div class="head">
+            <span>Quiz Mania</span>
+        </div>
+        <div class="play-section" id="play-sec">
+            <div class="result-sec" id="res-sec">
+                <p>Score : <span id="score">NULL</span></p>
+                <p>Welcome, <span id="player">#####</span> </p>
+            </div>
+            <div class="questions" id="sGame">
+                <!-- <p id="ques">What is color of you hair?</p>
+                <div class="answer ">
+                    <button id="A " onclick="check(this.id) ">Blue</button>
+                    <button id="B " onclick="check(this.id) ">Red</button>
+                    <button id="C " onclick="check(this.id) ">Orange</button>
+                    <button id="D " onclick="check(this.id) ">Black</button> -->
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

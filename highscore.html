@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="highscore.css">
+    <title>Highscore</title>
+</head>
+
+<body onload="update()">
+    <button id="home" onclick="location.href='index.html'">Home</button>
+    <div class="container">
+        <div class="heading">
+            <span>Highscore</span>
+        </div>
+        <div class="main">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+
+                    <!-- <tr>
+                        <td>1</td>
+                        <td>Jimish</td>
+                        <td>200</td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="highscore.js"></script>
+</body>
+
+</html>
